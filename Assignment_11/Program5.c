@@ -1,0 +1,27 @@
+#include <stdio.h>
+
+void Pattern(int iNo)
+{
+    int iCnt = 0, iNum = 0;
+    for(iCnt = 1; iCnt <= iNo; iCnt++)
+    {
+        iNum = 2 * iCnt;
+        printf("%d\t",iNum);
+    }
+    printf("\n");
+
+}
+int main()
+{
+    
+   int iValue = 0;
+
+   printf("Enetr number : \n");
+   scanf("%d",&iValue);
+    
+   Pattern(iValue);
+
+
+
+    return 0;
+}

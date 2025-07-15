@@ -8,7 +8,7 @@ int SumNonFact(int iNo)
     {
         if (iNo % iCnt != 0)
         {
-            iSum = iSum + iCnt;
+            iSum += iCnt;
         }
     }
     return iSum;

@@ -10,11 +10,11 @@ int FactDiff(int iNo)
     {
         if (iNo % iCnt == 0)
         {
-            iFactSum = iFactSum + iCnt;
+            iFactSum += iCnt;
         }
         else
         {
-            iNonFactSum = iNonFactSum + iCnt;
+            iNonFactSum += iCnt;
         }
     }
 

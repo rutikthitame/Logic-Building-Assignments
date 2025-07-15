@@ -7,7 +7,7 @@ int MultFact(int iNo)
     {
         if (iNo % i == 0)
         {
-            iMult = iMult * i;
+            iMult *= i;
         }
     }
     return iMult;
